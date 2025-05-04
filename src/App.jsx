@@ -8,7 +8,7 @@ import FeaturesSection from './components/FeaturesSection'
 import TestimonialsSection from './components/TestimonialsSection'
 import NewsletterSection from './components/NewsletterSection'
 import Footer from './components/Footer'
-import Portfolio from './components/portfolio'
+import Portfolio from './components/Portfolio'
 import Skills from './components/Skills'
 
 function App() {
