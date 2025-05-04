@@ -74,9 +74,9 @@ const Navbar = () => {
           variants={fadeIn('left', 0.3)}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="hidden md:block bg-blue-600 text-white px-6 py-2.5 rounded-lg hover:bg-blue-700 text-sm font-medium transition-all hover:shadow-lg hover:shadow-blue-100"
+          className="hidden md:block bg-green-600 text-white px-6 py-2.5 rounded-lg hover:bg-green-700 text-sm font-medium transition-all hover:shadow-lg hover:shadow-blue-100"
         >
-          <a href="#newsletter">Let's talk</a>
+          <a href="https://wa.me/254791315487">Whatsapp</a>
         </motion.button>
       </div>
 
@@ -108,12 +108,13 @@ const Navbar = () => {
               </motion.a>
             ))}
             <motion.button 
+              
               variants={fadeIn('up', 0.4)}
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              className="w-full bg-blue-600 text-white px-6 py-2.5 rounded-lg hover:bg-blue-700 text-sm font-medium transition-all hover:shadow-lg hover:shadow-blue-100"
+              className="w-full bg-green-600 text-white px-6 py-2.5 rounded-lg hover:bg-green-700 text-sm font-medium transition-all hover:shadow-lg hover:shadow-blue-100"
             >
-              Get in touch
+              <a href="https://wa.me/254791315487">Whatsapp</a>
             </motion.button>
           </motion.div>
         </motion.div>
